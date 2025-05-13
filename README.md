@@ -136,7 +136,7 @@ provider "aws" {
 
 module "munki-repo" {
   source          = "grahamgilbert/munki-repo/aws"
-  version         = "0.3.0"
+  version         = "0.1.2"
   munki_s3_bucket = var.munki_s3_bucket
   username        = var.username
   password        = var.password
